@@ -1,0 +1,33 @@
+trail_name,origin_city,region,mile_marker,length_miles,length_km,duration_hours,difficulty,elevation_change_ft,elevation_change_m,trail_type,trail_terrain,popularity,pet_friendly,family_friendly,waterfall,overlook_vista,stream_crossing,rock_scramble,wildlife,historic,fall_foliage_favorite,permit,trail_access,trailhead_coordinates_latitude,trailhead_coordinates_longitude
+Humpback Rocks Trail,Nellysford,VA,5.8,4.3,6.9,2.5,Moderate,1099,335,Loop,Dirt/Rock,High,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.0563,-78.8756
+Jeremy's Run Trail,Elkwallow,VA,19.4,6.0,9.7,3.5,Moderate,1430,435,Circuit,Dirt,Moderate,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Jones Run Falls Trail,Stanley,VA,84.1,3.2,5.1,2.5,Moderate,1045,318,Out-and-Back,Dirt,Moderate,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4821,-78.5663
+Keyser Run Fire Road,Flint Hill,VA,19.4,8.6,13.8,4.2,Moderate,0,0,Out-and-Back,Gravel,Low,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,38.6881,-78.2671
+Knob Mountain - Jeremys Run,Elkwallow,VA,19.4,6.0,9.7,3.5,Moderate,1430,435,Circuit,Dirt,Moderate,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Lands Run Falls Trail,Stanley,VA,0.0,1.3,2.1,1.5,Easy,325,99,Out-and-Back,Gravel,Low,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4700,-78.5511
+Lewis Falls Trail,Big Meadows,VA,51.2,3.3,5.3,4.0,Moderate,990,302,Circuit,Dirt,Moderate,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4344,-78.3194
+Limberlost Trail,Big Meadows,VA,43.7,1.3,2.1,0.5,Easy,0,0,Loop,Gravel,Low,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4321,-78.3256
+Little Devil Stairs Trail,Stanley,VA,0.0,2.4,3.9,2.0,Strenuous,1000,305,Out-and-Back,Dirt,High,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4700,-78.5511
+Little Stony Man Loop,Stanley,VA,41.7,1.6,2.6,1.0,Easy,400,122,Loop,Dirt,Moderate,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4383,-78.3486
+Mary's Rock Summit Trail,Thornwood,VA,33.5,3.7,5.9,2.5,Moderate,1250,381,Out-and-Back,Dirt,High,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4864,-78.3536
+Mary's Rock from Meadow Spring,Thornwood,VA,33.5,3.7,5.9,2.5,Moderate,1250,381,Out-and-Back,Dirt,High,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4864,-78.3536
+Mill Prong Trail,Big Meadows,VA,51.2,3.0,4.8,2.0,Moderate,800,244,Out-and-Back,Dirt,Moderate,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4344,-78.3194
+Millers Head Trail,Big Meadows,VA,51.2,2.0,3.2,1.5,Moderate,600,183,Out-and-Back,Dirt,Moderate,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4344,-78.3194
+Neighbor Mountain Trail,Elkwallow,VA,19.4,5.0,8.0,3.0,Moderate,1200,366,Out-and-Back,Dirt,Moderate,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Nicholson Hollow Trail,Elkwallow,VA,19.4,5.0,8.0,3.0,Moderate,1200,366,Out-and-Back,Dirt,Moderate,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Old Rag Fire Road,Elkwallow,VA,21.0,3.0,4.8,2.5,Moderate,800,244,Out-and-Back,Dirt,High,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Old Rag Mountain Loop Trail,Elkwallow,VA,21.0,9.0,14.5,6.0,Strenuous,2200,671,Loop,Dirt,High,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Old Rag Circuit Trail,Elkwallow,VA,21.0,9.0,14.5,6.0,Strenuous,2200,671,Loop,Dirt,High,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Old Rag Summit via Berry Hollow,Elkwallow,VA,21.0,9.0,14.5,6.0,Strenuous,2200,671,Out-and-Back,Dirt,High,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Overall Run Falls Trail,Elkwallow,VA,21.0,6.8,10.9,5.0,Strenuous,1600,488,Out-and-Back,Dirt,High,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Pass Mountain Loop,Elkwallow,VA,21.0,7.0,11.3,4.0,Moderate,1500,457,Loop,Dirt,Moderate,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Passamaquoddy Trail,Elkwallow,VA,21.0,2.0,3.2,1.5,Easy,200,61,Out-and-Back,Dirt,Low,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Piney Branch Trail,Elkwallow,VA,21.0,2.0,3.2,1.5,Easy,200,61,Out-and-Back,Dirt,Low,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Piney River Falls Trail,Elkwallow,VA,21.0,2.0,3.2,1.5,Easy,200,61,Out-and-Back,Dirt,Low,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Range View Cabin Trail,Elkwallow,VA,21.0,2.0,3.2,1.5,Easy,200,61,Out-and-Back,Dirt,Low,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Rapidan Camp,Elkwallow,VA,21.0,2.0,3.2,1.5,Easy,200,61,Out-and-Back,Dirt,Low,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Ridge Trail to Old Rag Mountain,Elkwallow,VA,21.0,3.0,4.8,2.0,Moderate,800,244,Out-and-Back,Dirt,Moderate,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Riprap Trail,Elkwallow,VA,21.0,4.0,6.4,2.5,Moderate,1000,305,Out-and-Back,Dirt,Moderate,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,38.4672,-78.3512
+Robertson Mountain Trail,Elkwallow,VA,21.0,5.0,8.
+::contentReference[oaicite:1]{index=1}
+ 

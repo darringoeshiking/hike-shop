@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trail Entry Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { text-align: center; }
+    form { max-width: 800px; margin: auto; }
+    input, select { width: 100%; padding: 8px; margin: 5px 0; }
+    .checkbox-group { display: flex; flex-direction: column; margin: 5px 0; }
+    button { padding: 10px 15px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Trail Entry Form</h1>
+  <form id="trail-form">
+    <label>Trail Name: <input type="text" name="trail_name" required></label>
+    <label>Origin City: <input type="text" name="origin_city"></label>
+    <label>Region:
+      <select name="region">
+        <option value="">Select</option>
+        <option value="North">North</option>
+        <option value="Central">Central</option>
+        <option value="South">South</option>
+      </select>
+    </label>
+    <label>Mile Marker: <input type="number" step="0.0000001" name="mile_marker"></label>
+    <label>Length (miles): <input type="number" step="0.0001" name="length_miles"></label>
+    <label>Difficulty:
+      <select name="difficulty">
+        <option value="">Select</option>
+        <option value="Easy">Easy</option>
+        <option value="Moderate">Moderate</option>
+        <option value="Hard">Hard</option>
+        <option value="Strenuous">Strenuous</option>
+      </select>
+    </label>
+
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="pet_friendly"> Pet Friendly</label>
+      <label><input type="checkbox" name="family_friendly"> Family Friendly</label>
+      <label><input type="checkbox" name="waterfall"> Waterfall</label>
+      <label><input type="checkbox" name="overlook_vista"> Overlook / Vista</label>
+      <label><input type="checkbox" name="stream_crossing"> Stream Crossing</label>
+      <label><input type="checkbox" name="rock_scramble"> Rock Scramble</label>
+      <label><input type="checkbox" name="wildlife"> Wildlife</label>
+      <label><input type="checkbox" name="historic"> Historic</label>
+      <label><input type="checkbox" name="fall_foliage_favorite"> Fall Foliage Favorite</label>
+      <label><input type="checkbox" name="permit"> Special Permit Required</label>
+    </div>
+
+    <label>Trail Type:
+      <select name="trail_type">
+        <option value="">Select</option>
+        <option value="Loop">Loop</option>
+        <option value="Out-and-back">Out-and-back</option>
+        <option value="Point-to-point">Point-to-point</option>
+        <option value="Circuit">Circuit</option>
+      </select>
+    </label>
+
+    <label>Trail Terrain:
+      <select name="trail_terrain">
+        <option value="">Select</option>
+        <option value="Dirt">Dirt</option>
+        <option value="Rocky">Rocky</option>
+        <option value="Gravel">Gravel</option>
+        <option value="Paved">Paved</option>
+      </select>
+    </label>
+
+    <label>Popularity:
+      <select name="popularity">
+        <option value="">Select</option>
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+        <option value="Very High">Very High</option>
+      </select>
+    </label>
+
+    <label>Trail Access: <input type="text" name="trail_access"></label>
+    <label>Trailhead Latitude: <input type="number" step="0.0000001" name="trailhead_coordinates_latitude"></label>
+    <label>Trailhead Longitude: <input type="number" step="0.0000001" name="trailhead_coordinates_longitude"></label>
+
+    <button type="submit">Add / Update Trail</button>
+    <button type="button" id="clear-form">Clear All Fields</button>
+  </form>
+
+  <script>
+    const form = document.getElementById('trail-form');
+    const clearBtn = document.getElementById('clear-form');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const trailData = {};
+      formData.forEach((value, key) => {
+        if (value === 'on') {
+          trailData[key] = true;
+        } else if (!isNaN(value) && value !== '') {
+          trailData[key] = Number(value);
+        } else {
+          trailData[key] = value || null;
+        }
+      });
+
+      fetch('add-trail', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(trailData)
+      })
+      .then(res => res.json())
+      .then(data => {
+        alert(data.message || 'Trail added/updated!');
+        form.reset();
+      })
+      .catch(err => console.error('Error:', err));
+    });
+
+    clearBtn.addEventListener('click', () => form.reset());
+  </script>
+</body>
+</html>
